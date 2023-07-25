@@ -8,17 +8,17 @@
 # Solution:
 
 class Calculator
-  def add(a, b)
-    @a = a
-    @b = b
-    result = @a+@b
+  def add(num1, num2)
+    @num1 = num1
+    @num2 = num2
+    result = @num1 + @num2
     return result
   end
 
   def subtract(a, b)
-   @a = a
-   @b = b
-    result = @a-@b
+    @num1 = num1
+    @num2 = num2
+    result = @num1 - @num2
     return result
   end
 end
