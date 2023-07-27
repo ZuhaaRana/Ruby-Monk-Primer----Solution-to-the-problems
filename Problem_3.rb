@@ -9,3 +9,9 @@
 
 # Example: The method, given 'Ruby is The best language in the World' and 'the',
 # should return 2 (comparison should be case-insensitive).
+
+def find_frequency(sentence, word)
+    sentence.split.map { |x| x.downcase }.count(word.downcase)
+  end
+  
+  puts find_frequency("Named must your fear be before banish it you can.","fear")
