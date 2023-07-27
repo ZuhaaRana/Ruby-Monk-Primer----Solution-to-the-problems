@@ -10,6 +10,7 @@
 # Given ['Ruby','Rails','C42'] the method should return [4,5,3]
 
 # Solution:
+
 def length_finder(input_array)
     input_array.map {|i| i.length}
 end
