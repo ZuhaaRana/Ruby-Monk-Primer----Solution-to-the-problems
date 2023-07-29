@@ -15,6 +15,8 @@
 # Calling the method twice should ideally return different sets of values
 # (though it may not).
 
+# Solution:
+
 def random_select(array, n)
   result = []
   n.times do
