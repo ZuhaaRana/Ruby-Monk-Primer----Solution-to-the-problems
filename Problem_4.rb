@@ -12,6 +12,9 @@
 # from the given array. (Note: those two random numbers may be the same number.)
 # The method should return those random values in a new array.
 
+# Calling the method twice should ideally return different sets of values
+# (though it may not).
+
 def random_select(array, n)
   result = []
   n.times do
