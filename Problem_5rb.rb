@@ -1,28 +1,14 @@
 
-# Problem 4
+# Problem 5
 
 # Problem Statement:
 
-# Create a method 'random_select' which, when given an array of elements (array)
-# and a number (n), returns n randomly selected elements from that array.
+# Create a method named 'sort_string' which accepts a String and rearranges all 
+# the words in ascending order, by length. Let's not treat the punctuation marks any different than other characters and assume that we will always have single space to separate the words.
 
 # Example:
 
-# Given an array [1, 2, 3, 4, 5] and 2 should return two random numbers
-# from the given array. (Note: those two random numbers may be the same number.)
-# The method should return those random values in a new array.
-
-# Calling the method twice should ideally return different sets of values
-# (though it may not).
+# Given a string "Sort words in a sentence", it should return "a in Sort 
+# words sentence".
 
 # Solution:
-
-def random_select(array, n)
-  result = []
-  n.times do
-      result << array[rand(array.length-1)]
-end
-return result
-end
-
-puts random_select([1, 2, 3, 4, 5, 6], 3)
