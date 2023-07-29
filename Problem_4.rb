@@ -1,17 +1,13 @@
 
-# Problem 3
+# Problem 4
 
-# Problem Statement
-# Given a sentence containing multiple words, find the frequency of a given word
-# in that sentence.
-# Construct a method named 'find_frequency' which accepts two arguments 
-# 'sentence' and 'word', both of which are String objects.
+# Problem Statement:
 
-# Example: The method, given 'Ruby is The best language in the World' and 'the',
-# should return 2 (comparison should be case-insensitive).
+# Create a method 'random_select' which, when given an array of elements (array)
+# and a number (n), returns n randomly selected elements from that array.
 
-def find_frequency(sentence, word)
-    sentence.split.map { |x| x.downcase }.count(word.downcase)
-  end
-  
-  puts find_frequency("Named must your fear be before banish it you can.","fear")
+# Example:
+
+# Given an array [1, 2, 3, 4, 5] and 2 should return two random numbers
+# from the given array. (Note: those two random numbers may be the same number.)
+# The method should return those random values in a new array.
