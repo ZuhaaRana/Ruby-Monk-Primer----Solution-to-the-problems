@@ -12,3 +12,12 @@
 # from the given array. (Note: those two random numbers may be the same number.)
 # The method should return those random values in a new array.
 
+def random_select(array, n)
+  result = []
+  n.times do
+      result << array[rand(array.length-1)]
+end
+return result
+end
+
+puts random_select([1, 2, 3, 4, 5, 6], 3)
