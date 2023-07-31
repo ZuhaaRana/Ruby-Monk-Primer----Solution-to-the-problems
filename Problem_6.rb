@@ -1,24 +1,27 @@
 
-# Problem 5
+# Problem 6
 
-# Problem Statement:
+# Problem Statement
+# Let us say you are trying to recruit team-members for your new startup!
+# Given a candidate, you need an expression that will tell you whether 
+# they fit into certain types. This is how a candidate object would look:
 
-# Create a method named 'sort_string' which accepts a String and rearranges all 
-# the words in ascending order, by length. Let's not treat the punctuation marks any different than other characters and assume that we will always have single space to separate the words.
+# candidate.years_of_experience = 4
+#   candidate.github_points = 293
+#   candidate.languages_worked_with = ['C', 'Ruby', 'Python', 'Clojure']
+#   candidate.applied_recently? = false
+#   candidate.age = 26
 
-# Example:
+# We are looking to hire experienced Ruby programmers. Our ideal candidate
+# has 2 or more years of experience, but some programmers become really
+# good even before that. We'll consider their Github points (a nice indicator
+# of a good programmer), and even if they are not experienced, candidates
+# with 500 Github points or more can apply. And there is one more catch: 
+# Ruby being a cool and awesome language, a lot of smart youngsters are 
+# very good at it. We love those kids, but for this particular job we'd 
+# rather have them study at school than work. Let us filter out candidates
+# who are younger than 15. Also we don't want to consider candidates who
+#  applied recently for this opening.
 
-# Given a string "Sort words in a sentence", it should return "a in Sort 
-# words sentence".
+#  Solution:
 
-# Solution:
-
-def sort_string(string)
-  string.split.sort
-  {
-      |str1, str2|
-      str1.length <=> str2.length
-  }.join(" ")
-end
-
-puts sort_string("Sort words in a sentence")
