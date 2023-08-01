@@ -7,6 +7,7 @@
 # You are supposed to write a method palindrome? to accomplish this task.
 # Note Ignore whitespace and cases of characters.
 
+# Solution 
 def palindrome?(sentence)
   sentence1 = sentence.downcase
   sentence2 = sentence1.gsub(/\W/,"")  
