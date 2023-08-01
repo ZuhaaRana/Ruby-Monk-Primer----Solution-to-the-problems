@@ -1,13 +1,14 @@
 
 # Problem 7
 
-# Problem Statement
+# Problem Statement:
 
 # Given a sentence, return true if the sentence is a palindrome.
 # You are supposed to write a method palindrome? to accomplish this task.
 # Note Ignore whitespace and cases of characters.
 
-# Solution 
+# Solution:
+
 def palindrome?(sentence)
   sentence1 = sentence.downcase
   sentence2 = sentence1.gsub(/\W/,"")  
