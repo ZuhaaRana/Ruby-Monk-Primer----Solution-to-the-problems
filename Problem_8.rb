@@ -8,6 +8,8 @@
 # Example:
 # Given range 1 to 3 the method should return 36
 
+
+# Using do end 
 def sum_of_cubes(a,b)
   sum = 0
   (a..b).each do |n|
@@ -15,3 +17,5 @@ def sum_of_cubes(a,b)
     end
       sum
   end
+  
+sum_of_cubes(1,3)
