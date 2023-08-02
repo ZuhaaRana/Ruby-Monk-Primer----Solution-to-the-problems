@@ -7,3 +7,11 @@
 
 # Example:
 # Given range 1 to 3 the method should return 36
+
+def sum_of_cubes(a,b)
+  sum = 0
+  (a..b).each do |n|
+        sum+=(n*n*n)
+    end
+      sum
+  end
