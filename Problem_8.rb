@@ -18,10 +18,10 @@ puts sum_of_cubes(1,3)
 
 # Using do end
 
-def sum_of_cubes(a,b)
+def sum_of_cubes(min,max)
   sum = 0
-  (a..b).each do |n|
-        sum+=(n*n*n)
+  (min..max).each do |num|
+        sum+=(num*num*num)
     end
       sum
   end
