@@ -1,7 +1,9 @@
-# Problem Statement
+# Problem Statement:
 
 # Given a custom class MyArray,
 # write a 'sum' method that takes a block parameter.
+
+# Solution:
 
 class MyArray
   attr_reader :array
