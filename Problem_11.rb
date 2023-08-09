@@ -14,10 +14,10 @@
 
 def kaprekar?(num)
   no_of_digits = num.to_s.size
-  square = (num ** 2).to_s
+  square_of_num = (num ** 2).to_s
   
-  second_half = square[-no_of_digits..-1]
-  first_half = square.size.even? ? square[0..no_of_digits-1] : square[0..no_of_digits-2]
+  second_half = square_of_num[-no_of_digits..-1]
+  first_half = square_of_num.size.even? ? square_of_num[0..no_of_digits-1] : square_of_num[0..no_of_digits-2]
   
   num == first_half.to_i + second_half.to_i
 end
