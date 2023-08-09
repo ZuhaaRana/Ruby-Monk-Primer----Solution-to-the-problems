@@ -12,3 +12,12 @@
 # In short, for a Kaprekar number k with n-digits, if you square it and add the right n digits to the left n or n-1 digits, the resultant sum is k.
 # Find if a given number is a Kaprekar number.
 
+def kaprekar?(num)
+  no_of_digits = num.to_s.size
+  square = (num ** 2).to_s
+  
+  second_half = square[-no_of_digits..-1]
+  first_half = square.size.even? ? square[0..no_of_digits-1] : square[0..no_of_digits-2]
+  
+  num == first_half.to_i + second_half.to_i
+end
