@@ -9,3 +9,12 @@
 # Given: 123
 # Return: [123, 132, 213, 231, 312, 321]
 
+# Solution:
+
+def number_shuffle(number)
+  number.to_s.chars.map { |c| c.to_i }.
+    
+  permutation.to_a.map { |set| set.join }.
+    
+  map { |str| str.to_i }.sort
+end
