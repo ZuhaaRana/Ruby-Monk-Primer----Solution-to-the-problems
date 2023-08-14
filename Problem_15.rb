@@ -10,3 +10,19 @@
 # then the cost is 5.
 # If the orders are {:rice => 1, :noodles => 1} and {:rice => 2, :noodles => 2} and the menu
 # is {:rice => 3, :noodles => 2}, then the cost is 15.
+
+class Restaurant
+  def initialize(menu)
+    @menu = menu
+  end
+
+  def cost(*orders)
+    total_cost = 0
+    orders.each do |order|
+      order.each_key do |item|
+        total_cost += order[item] * @menu[item]
+      end
+    end
+    total_cost
+  end
+end
