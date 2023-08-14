@@ -11,6 +11,8 @@
 # If the orders are {:rice => 1, :noodles => 1} and {:rice => 2, :noodles => 2} and the menu
 # is {:rice => 3, :noodles => 2}, then the cost is 15.
 
+# Solution:
+
 class Restaurant
   def initialize(menu)
     @menu = menu
