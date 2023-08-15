@@ -7,6 +7,8 @@
 # Example:
 # Given [1,2,3], the method should return true
 
+# Solution:
+
 def array_of_fixnums?(array)
   array.all? { |x| x.is_a? Fixnum }
 end
