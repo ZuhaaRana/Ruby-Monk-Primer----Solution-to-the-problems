@@ -2,7 +2,6 @@
 # Problem 10
 
 # Problem Statement:
-
 # For 2 Colors in RGB:
 # (R1, G1, B1) and (R2, G2, B2),
 # Brightness index is:

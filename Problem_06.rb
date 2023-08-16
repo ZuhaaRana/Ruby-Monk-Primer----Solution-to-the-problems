@@ -1,11 +1,10 @@
 
 # Problem 6
 
-# Problem Statement
+# Problem Statement:
 # Let us say you are trying to recruit team-members for your new startup!
 # Given a candidate, you need an expression that will tell you whether 
 # they fit into certain types. This is how a candidate object would look:
-
 # candidate.years_of_experience = 4
 #   candidate.github_points = 293
 #   candidate.languages_worked_with = ['C', 'Ruby', 'Python', 'Clojure']

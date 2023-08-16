@@ -9,6 +9,7 @@
 # Given [1,2,2,3,3,4,5], the method should return [1,4,5]
 
 # Solution:
+
 def non_duplicated_values(values)
   values.keep_if { |eachValue| values.count(eachValue) == 1 }
 end

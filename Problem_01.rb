@@ -1,7 +1,7 @@
 
 # Problem 1
 
-# Problem Statement
+# Problem Statement:
 # Create a class Calculator, which performs addition and subtraction of two numbers
 # at a time.
 
