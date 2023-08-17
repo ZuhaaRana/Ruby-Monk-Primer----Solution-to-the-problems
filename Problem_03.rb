@@ -14,7 +14,8 @@
 # Solution:
 
 def find_frequency(sentence, word)
+
     sentence.split.map { |x| x.downcase }.count(word.downcase)
   end
   
-  puts find_frequency("Named must your fear be before banish it you can.","fear")
+puts find_frequency("Named must your fear be before banish it you can.","fear")
