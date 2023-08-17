@@ -19,8 +19,8 @@ def random_select(array, n)
   result = []
   n.times do
       result << array[rand(array.length-1)]
-end
-return result
+    end
+  return result
 end
 
 puts random_select([1, 2, 3, 4, 5, 6], 3)
