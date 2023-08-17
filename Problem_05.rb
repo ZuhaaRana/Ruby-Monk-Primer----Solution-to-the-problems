@@ -12,11 +12,13 @@
 # Solution:
 
 def sort_string(string)
+
   string.split.sort
   {
       |str1, str2|
       str1.length <=> str2.length
   }.join(" ")
+  
 end
 
 puts sort_string("Sort words in a sentence")
