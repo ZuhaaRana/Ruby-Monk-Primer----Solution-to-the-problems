@@ -12,9 +12,11 @@
 # Solution:
 
 def length_finder(input_array)
+
   array_of_lengths = []
   input_array.each do |x|
     array_of_lengths << x.length
   end
   array_of_lengths
+  
 end
