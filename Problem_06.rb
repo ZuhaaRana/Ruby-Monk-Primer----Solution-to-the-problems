@@ -6,10 +6,10 @@
 # Given a candidate, you need an expression that will tell you whether 
 # they fit into certain types. This is how a candidate object would look:
 # candidate.years_of_experience = 4
-#   candidate.github_points = 293
-#   candidate.languages_worked_with = ['C', 'Ruby', 'Python', 'Clojure']
-#   candidate.applied_recently? = false
-#   candidate.age = 26
+# candidate.github_points = 293
+# candidate.languages_worked_with = ['C', 'Ruby', 'Python', 'Clojure']
+# candidate.applied_recently? = false
+# candidate.age = 26
 
 # We are looking to hire experienced Ruby programmers. Our ideal candidate
 # has 2 or more years of experience, but some programmers become really
