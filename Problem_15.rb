@@ -14,6 +14,7 @@
 # Solution:
 
 class Restaurant
+
   def initialize(menu)
     @menu = menu
   end
@@ -27,4 +28,5 @@ class Restaurant
     end
     total_cost
   end
+  
 end
