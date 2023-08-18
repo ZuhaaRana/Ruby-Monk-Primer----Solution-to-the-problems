@@ -17,5 +17,4 @@ def palindrome?(sentence)
   reverse_sentence = sentence2.reverse
   reverse_sentence == sentence2
 end
-
 puts palindrome?("Never odd or even")
