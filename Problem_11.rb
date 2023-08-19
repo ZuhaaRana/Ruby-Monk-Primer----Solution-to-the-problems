@@ -15,6 +15,7 @@
 # Solution: 
 
 def kaprekar?(num)
+
   no_of_digits = num.to_s.size
   square_of_num = (num ** 2).to_s
   
@@ -22,4 +23,5 @@ def kaprekar?(num)
   first_half = square_of_num.size.even? ? square_of_num[0..no_of_digits-1] : square_of_num[0..no_of_digits-2]
   
   num == first_half.to_i + second_half.to_i
+  
 end
