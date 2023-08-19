@@ -14,11 +14,9 @@
 # Solution:
 
 class Restaurant
-
   def initialize(menu)
     @menu = menu
   end
-
   def cost(*orders)
     total_cost = 0
     orders.each do |order|
@@ -28,5 +26,4 @@ class Restaurant
     end
     total_cost
   end
-  
 end
