@@ -1,5 +1,5 @@
 
-# Problem 10
+# Problem 12
 
 # Problem Statement:
 # For 2 Colors in RGB:
@@ -42,4 +42,5 @@ class Color
   def enough_contrast?(another_color)
     brightness_difference(another_color) > 125 && hue_difference(another_color) > 500
   end
+  
 end
